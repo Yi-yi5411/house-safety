@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "鉴定列表",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/survey-detail/survey-detail",
+      "style": {
+        "navigationBarTitleText": "鉴定详情"
+      }
+    },
+    {
+      "path": "pages/data-collection/data-collection",
+      "style": {
+        "navigationBarTitleText": "数据采集"
+      }
+    },
+    {
+      "path": "pages/damage-record/damage-record",
+      "style": { "navigationBarTitleText": "构件检查" }
+    },
+    {
+      "path": "pages/component-inspect/component-inspect",
+      "style": { "navigationBarTitleText": "构件评定" }
+    },
+    {
+      "path": "pages/report-preview/report-preview",
+      "style": {
+        "navigationBarTitleText": "报告预览"
+      }
+    },
+    {
+      "path": "pages/report-signature/report-signature",
+      "style": {
+        "navigationBarTitleText": "签字盖章"
+      }
+    },
+    {
+      "path": "pages/test-result-inference/test-result-inference",
+      "style": {
+        "navigationBarTitleText": "检测结果推理"
+      }
+    },
+    {
+      "path": "pages/structural-test/structural-test",
+      "style": {
+        "navigationBarTitleText": "结构检测结果"
+      }
+    },
+    {
+      "path": "pages/test-image/test-image",
+      "style": {
+        "navigationBarTitleText": "检测图片"
+      }
+    },
+    {
+      "path": "pages/evaluation-standards/evaluation-standards",
+      "style": {
+        "navigationBarTitleText": "评定标准"
+      }
+    },
+    {
+      "path": "pages/report-template/report-template",
+      "style": {
+        "navigationBarTitleText": "报告模板"
+      }
+    },
+    {
+      "path": "pages/original-record/original-record",
+      "style": {
+        "navigationBarTitleText": "原始记录"
+      }
+    },
+    {
+      "path": "pages/ai-assistant/ai-assistant",
+      "style": {
+        "navigationBarTitleText": "AI助手"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "房屋安全鉴定",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1989FA",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/list.png",
+        "selectedIconPath": "static/tabbar/list-active.png",
+        "text": "鉴定列表"
+      },
+      {
+        "pagePath": "pages/ai-assistant/ai-assistant",
+        "iconPath": "static/tabbar/ai.png",
+        "selectedIconPath": "static/tabbar/ai-active.png",
+        "text": "AI助手"
+      },
+      {
+        "pagePath": "pages/report-template/report-template",
+        "iconPath": "static/tabbar/setting.png",
+        "selectedIconPath": "static/tabbar/setting-active.png",
+        "text": "模板管理"
+      }
+    ]
+  }
+}

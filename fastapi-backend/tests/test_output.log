@@ -1,0 +1,21 @@
+============================================================
+房屋安全鉴定系统 — API 功能综合测试
+============================================================
+
+============================================================
+TEST 1: Health Check
+============================================================
+  [FAIL] /health — All connection attempts failed
+
+============================================================
+TEST 2: API Documentation
+============================================================
+  [FAIL] /docs — All connection attempts failed
+  [FAIL] /openapi.json — All connection attempts failed
+
+============================================================
+TEST 3: Auth Endpoints
+============================================================
+  [FAIL] POST /auth/email/send — All connection attempts failed
+  [FAIL] POST /auth/phone/send — All connection attempts failed
+  [FAIL] POST /auth/login/phone (invalid code) — All connection attempts failed
