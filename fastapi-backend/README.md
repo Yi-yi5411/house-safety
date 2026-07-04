@@ -113,7 +113,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ### 2. 下载 Qwen3.5 模型
 
 ```bash
-ollama pull qwen2.5:7b
+ollama pull qwen3.5:latest
 ```
 
 ### 3. 启动 Ollama 服务
@@ -125,7 +125,7 @@ ollama serve
 ### 4. 测试模型
 
 ```bash
-ollama run qwen2.5:7b
+ollama run qwen3.5:latest
 ```
 
 ## API 文档
